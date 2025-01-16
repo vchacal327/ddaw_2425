@@ -23,8 +23,17 @@ Esto representa un problema de seguridad especialmente grave si se trata de un f
 
 ### Act. 3.4: accediendo a ficheros desde diferentes cuentas de usuario
 
-#### Grabación de la actividad:
 
-### Act. 3.5: ejercicios opcionales
+![My Image](./imgs/1.png "An example image")
 
-#### Grabación de la actividad:
+He podido ejecutar el script hello.sh desde el usuario bob, ya que al archivo se le dieron permisos 755, que permite leer y ejecutar
+a otros usuarios.
+
+![My Image](./imgs/2.png "An example image")
+![My Image](./imgs/3.png "An example image")
+
+El script bob.sh también se ejecuta porque bob es el propietario del fichero y tiene todos los permisos sobre él.
+
+![My Image](./imgs/4.png "An example image")
+
+Ambos script pueden ser ejecutados desde el usuario smith porque tienen permisos 755.
