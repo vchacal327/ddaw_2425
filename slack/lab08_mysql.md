@@ -1,4 +1,4 @@
-# Laboratorio 7: MySQL
+# Laboratorio 8: MySQL
 
 ### Act. 8.1:
 
